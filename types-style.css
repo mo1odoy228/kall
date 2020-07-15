@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+}
+
+body {
+	background-image: url("images/bg.png");
+}
+
+.header {
+	margin-left: -3px;
+	position: fixed;
+	width: 99.5%;
+	background-color: #778899;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 40;
+	margin-top: -90px;
+}
+
+.header__logo {
+	margin-left: 40px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #D3D3D3;
+}
+
+.menu {
+	margin-right: 40px;
+}
+
+.menu * {
+	padding: 0;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu > ul {
+	display: flex;
+	justify-content: center;
+}
+
+.menu > ul li a {
+	display: block;
+	font-size: 14px;
+	color: #D3D3D3;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+	background: #454547;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+.menu li ul {
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+
+.menu li > ul li {
+	border: 1px solid black;
+}
+
+.menu li > ul li a {
+	padding: 10px;
+	text-transform: none;
+	background: gray;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.marg {
+	margin: 0 10px;
+}
+
+.nav {
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.nav__link {
+	display: inline-block;
+	vertical-align: top;
+	color: #D3D3D3;
+	text-decoration: none;
+	transition: color 0.2s linear;
+	margin: 0 10px;
+	position: relative;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	display: none;
+	background-color: #1E90FF;
+	position: absolute;
+	top: 100%
+	left: 0;
+	z-index: 1;
+}
+
+.nav__link:hover {
+	color: #1E90FF;
+}
+
+.nav__link:hover:after {
+	display: block;
+}
+
+.skate {
+	width: 100%;
+}
+
+.sk {
+	display: block;
+	margin: auto;
+}
+
+.par {
+	background-image: url("images/park.jpg");
+	min-height: 615px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parl {
+	background-image: url("images/nightride.jpg");
+	min-height: 615px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.paral {
+	background-image: url("images/pen.jpg");
+	min-height: 615px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parall {
+	background-image: url("images/dh.jpg");
+	min-height: 615px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.white__text {
+	color: white;
+}
