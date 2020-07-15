@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Мир машин</title>
+		<link rel="stylesheet" type="text/css" href="main-style.css">	
+	</head>
+
+	<body>
+		<div class="header">
+			<div>
+				<h1 class="header__logo">Мир машин</h1>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li><a class="marg" href="main.html">Главная</a></li>
+					<li><a class="marg" href="#">Статьи</a>
+						<ul>
+							<li><a href="types.html">Виды скейтбордов</a></li>
+							<li><a href="tricks.html">Базовые трюки</a></li>
+						</ul>
+					</li>
+					<li><a class="marg" href="contacts.html">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div style="margin-top: 100px;">
+			<hr>
+			<h1 align="center" style="color: #D3D3D3;">Наши услуги</h1>
+		</div><hr>
+		<div align="center">
+			<div class="border" style="padding: 5px;">
+
+				<div align="left">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/washing.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Автомойка</span></h2>
+						<div class="price">
+							<p><b>От 200 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="center" class="top230">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/maslo.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Замена масла</span></h2>
+						<div class="price">
+							<p><b>От 500 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="right" class="top230">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/wb.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Балансировка колес</span></h2>
+						<div class="price">
+							<p><b>От 1500 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="left">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/zt.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Замена тормозных дисков</span></h2>
+						<div class="price">
+							<p><b>От 2000 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="center" class="top230">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/zs.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Замена стекол</span></h2>
+						<div class="price">
+							<p><b>От 1500 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="right" class="top230">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/sm.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Шиномонтаж</span></h2>
+						<div class="price">
+							<p><b>От 750 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="left">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/pok.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Покраска</span></h2>
+						<div class="price">
+							<p><b>От 1750 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="center" class="top230">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/pk.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Полировка кузова</span></h2>
+						<div class="price">
+							<p><b>От 1800 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+				<div align="right" class="top230">
+					<div class="hold">
+						<a class="line" href="https://koleso.ru/services/avtomoyka/"><img src="images/pf.jpg" width="400px" height="220" style="border: 0px solid; border-radius: 10px;"><h2 class="center"><span>Полировка фар</span></h2>
+						<div class="price">
+							<p><b>От 1250 рублей</b></p>
+						</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<footer>
+			<hr>
+			<p align="center" class="white__text"><b>&copy;<time>2020</time></b></p>
+		</footer>
+	</body>
+
+</html>
