@@ -1,0 +1,163 @@
+* {
+	padding: 0;
+}
+
+body {
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564740-6eed6800-c6c9-11ea-82d0-79b16f596b02.png");
+}
+
+.white__text {
+	color: white;
+}
+
+.header {
+	margin-left: 0.17%;
+	position: fixed;
+	width: 98.65%;
+	height: 86px;
+	background-color: #778899;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 40;
+	margin-top: -94px;
+}
+
+.header__logo {
+	margin-left: 40px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #D3D3D3;
+	letter-spacing: 1px;
+}
+
+.menu {
+	margin-right: 40px;
+}
+
+.menu * {
+	padding: 0;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu > ul {
+	display: flex;
+	justify-content: center;
+}
+
+.menu > ul li a {
+	display: block;
+	font-size: 14px;
+	color: #D3D3D3;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+	background: #778899;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+.menu li ul {
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+
+.menu li > ul li {
+	border: 1px solid black;
+}
+
+.menu li > ul li a {
+	padding: 10px;
+	text-transform: none;
+	background: gray;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.marg {
+	margin: 0 10px;
+}
+
+.border {
+	border: 5px solid #D3D3D3;
+	border-radius: 10px;
+	height: 680px;
+	width: 1300px;
+}
+
+h2 {
+	position: absolute;
+	top: -225px;
+}
+
+h2 span {
+	color: red;
+	-webkit-text-stroke: 1px black;
+	font: bold;
+	padding: 10px;
+	letter-spacing: 0.5px;
+	font-size: 125%;
+}
+
+.hold {
+	position: relative;
+	width: 400px;
+	height: 230px;
+}
+
+.center {
+	width: 400px;
+	height: 230px;
+	text-align: center;
+}
+
+.line {
+  position: relative;
+}
+
+.line:hover:before {
+  width: 100%;
+}
+   
+.line:before {
+  transition-timing-function: linear;
+  transition-duration: 0.4s;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 0;
+  max-width: 92%;
+  background: red;
+  margin-left: 4%;
+  top: 26%;
+  top: -167px;
+}
+
+.price {
+	position: absolute;
+	color: red;
+	-webkit-text-stroke: 1px black;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	text-align: center;
+	font-size: 30px;
+}
+
+.hold:hover .price {
+	display: block;
+}
+
+.top230 {
+	margin-top: -230px;
+}
