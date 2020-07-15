@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image: url("images/bg.png");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564740-6eed6800-c6c9-11ea-82d0-79b16f596b02.png");
 }
 
 .header {
@@ -123,7 +123,7 @@ body {
 }
 
 .skatepark {
-	background-image: url("images/skatepark.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564913-a22ff700-c6c9-11ea-9470-cc4bd70225b1.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -132,7 +132,7 @@ body {
 }
 
 .ride {
-	background-image: url("images/bs180.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564864-98a68f00-c6c9-11ea-9420-e5b772df6535.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -141,7 +141,7 @@ body {
 }
 
 .bs180 {
-	background-image: url("images/ride.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564907-a1976080-c6c9-11ea-8fab-98a207c7765c.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -150,7 +150,7 @@ body {
 }
 
 .popsh {
-	background-image: url("images/popsh.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564903-a0feca00-c6c9-11ea-8dfc-70fb73eefccb.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -159,7 +159,7 @@ body {
 }
 
 .kick {
-	background-image: url("images/kick2.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564885-9e9c7000-c6c9-11ea-8f98-a78890f11a34.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -168,7 +168,7 @@ body {
 }
 
 .ride2 {
-	background-image: url("images/ride2.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564908-a1976080-c6c9-11ea-9add-13de2b01ae7c.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
