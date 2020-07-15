@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image: url("images/bg.png");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564740-6eed6800-c6c9-11ea-82d0-79b16f596b02.png");
 }
 
 .header {
@@ -128,7 +128,7 @@ body {
 }
 
 .par {
-	background-image: url("images/park.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564847-904e5400-c6c9-11ea-8352-a4ec3dbf9af0.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -137,7 +137,7 @@ body {
 }
 
 .parl {
-	background-image: url("images/nightride.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564827-89274600-c6c9-11ea-835b-9cd17cca4adf.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -146,7 +146,7 @@ body {
 }
 
 .paral {
-	background-image: url("images/pen.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564890-9fcd9d00-c6c9-11ea-9f4a-dc503632f09b.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
@@ -155,7 +155,7 @@ body {
 }
 
 .parall {
-	background-image: url("images/dh.jpg");
+	background-image: url("https://user-images.githubusercontent.com/68339200/87564880-9e03d980-c6c9-11ea-997a-c3cfed9bc9cb.jpg");
 	min-height: 615px;
 	background-attachment: fixed;
 	background-position: center;
